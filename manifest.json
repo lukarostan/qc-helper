@@ -4,7 +4,6 @@
     "name": "QC-Helper",
     "description": "Helper for Gitlab and Teamwork",
     "action": {
-        "default_popup": "popup.html",
         "default_icon": {
             "16": "/img/16.png",
             "32": "/img/32.png",
@@ -18,11 +17,11 @@
         "64": "/img/64.png",
         "128": "/img/128.png"
     },
-    // "background": {
-    //     "service_worker": "background.js"
-    // },
-    "permissions": [
-        "storage"
+    "content_scripts": [
+        {
+            "matches": ["https://gitlab.com/*"],
+            "css": ["style.css"],
+            "js": ["gitlabHelper.js"]
+        }
     ]
-    
 }
