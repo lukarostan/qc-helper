@@ -1,3 +1,3 @@
 # QC-HELPER
 
-Chrome extension that adds features to GitLab and Teamwork that will speed up the QC process.
+Chrome extension that adds features to GitLab that will speed up the QC process.

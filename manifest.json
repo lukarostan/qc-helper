@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "version": "1.00",
     "name": "QC-Helper",
-    "description": "Helper for Gitlab and Teamwork",
+    "description": "Helper for Gitlab",
     "action": {
         "default_icon": {
             "16": "/img/16.png",
